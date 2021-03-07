@@ -1,0 +1,31 @@
+# These are the default settings for DifferentChat
+# All settings are required. If you need an extra copy of the defaults, see the Discord.
+# You can specify which messages you want to send in messages.txt, one per line
+
+# Server hostname or IP address
+server = constantiam.net
+
+# Server port number (25565 is correct for most servers)
+port = 25565
+
+# Server version number
+version = 1.12.2
+
+# Delay between each message, in milliseconds
+# This is 5 minutes, which is the suggested amount
+# Don't set too low or you'll get kicked or ratelimited or something by the server
+message_delay = 300000
+
+# Will exit after successfully sending this many messages
+# 72 is the current max allowed per day
+# Set to -1 to not stop
+message_count = 72
+
+# If you get disconnected, retry after this many milliseconds
+# Not recommended to set too low, since you might get blocked from game authentication servers
+reconnect_delay = 61000
+
+# If you get disconnected, retry at most this many times
+# Not recommended to set too low, since you might get blocked from game authentication servers
+# Set to -1 to not stop trying
+reconnect_tries = 15
